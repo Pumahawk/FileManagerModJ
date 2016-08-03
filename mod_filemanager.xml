@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+<name>Filemanager</name>
+<author>Lorenzo Gandino</author>
+<creationDate>07/2014</creationDate>
+<copyright>(C) 2014 Lorenzo Gandino. All rights reserved.</copyright>
+<license> GNU General Public License version 3; see LICENSE.txt</license>
+<authorEmail>lorenzoga94@gmail.com</authorEmail>
+<authorUrl>http://lnkd.in/bekiWWB</authorUrl>
+<version>0.1</version>
+<description>Mini file manager che permette di gestire i il contenuto di una cartella data in input</description>
+<files>
+	<filename module="mod_filemanager">mod_filemanager.php</filename>
+	<filename>mod_filemanager.xml</filename>
+	<filename>helper.php</filename>
+	<filename>index.html</filename>
+	<filename>LICENZE.txt</filename>
+	<folder>tmpl</folder>
+	<folder>media</folder>
+</files>
+<config>
+	<fields
+		name = "params"		
+	>
+		<fieldset name="basic">
+				<field
+					name = "dirpartenza"
+					label = "Cartelle di partenza"
+					type="text"
+					default = "."
+				>
+				</field>
+		</fieldset>
+	</fields>
+</config>
+</extension>

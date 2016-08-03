@@ -1,0 +1,102 @@
+
+div.mod_filemanager .sottotitolo
+{
+	margin-top:10px;
+	border-radius:10px 10px 0px 0px;
+	background:#2E9AFE;
+	padding:10px;
+	
+	color:white;
+}
+
+div.mod_filemanager div.elencofile, div.mod_filemanager .upload
+{
+	padding:10px;
+	border-color:#2E9AFE;
+	border-width:1px;
+	border-style:solid;
+}
+
+div.mod_filemanager .elencofile table a
+{
+	color:black;
+    text-decoration:none;
+}
+
+div.mod_filemanager .elencofile img
+{
+	padding-right:5px;
+}
+
+div.mod_filemanager .load img
+{
+	width:50px;
+}
+
+div.mod_filemanager .load
+{
+	text-align:center;
+	width:100%;
+}
+
+div.mod_filemanager table
+{
+	width:100%;
+}
+
+div.mod_filemanager [type=button]
+{
+	cursor:pointer;
+	width:60px;
+	background:#2E9AFE;
+	border-radius:5px;
+	border-width:0px;
+	color:white;
+	padding:2px;
+	margin-right:5px;
+}
+div.mod_filemanager img.button
+{
+	cursor:pointer;
+}
+div.mod_filemanager .banner .sfondo
+{
+	position:absolute;
+	opacity:0.4;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
+	z-index:1;
+	//background:black;
+}
+div.mod_filemanager .banner .contenuto
+{
+	z-index:2;
+	position:absolute;
+	
+}
+
+div.mod_filemanager .loading
+{
+	text-align:center;
+}
+div.mod_filemanager .loading img{
+	height:15px;
+}
+div.mod_filemanager .elencofile table tr:hover
+{
+	background:#CEECF5;
+}
+
+div.mod_filemanager .barracartelle
+{
+	/*padding:5px;*/
+	margin-top:2px;
+}
+
+div.mod_filemanager .progress
+{
+	font-weight:bold;
+	color:#2E9AFE;
+}
